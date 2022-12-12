@@ -77,6 +77,9 @@ alert(getPlayerChoice(playerSelection, computerSelection))
 if(playerScore>computerScore){
   alert("CONGRANTS, YOU HAVE WON THE GAME");
 }
+else if(playerScore === computerScore){
+  alert("IT'S A TIE, YOU HAVE ALL OBTAINED SAME POINTS")
+}
 else{
   alert('SORRY, THE COMPUTER HAS WON');
 }
